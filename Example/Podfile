@@ -1,3 +1,5 @@
+source 'http://github.com/CocoaPods/Specs.git'
+source 'https://git.coding.net/pizhulovecode/MyPodsRepo.git'
 use_frameworks!
 
 target 'MyFirstPod_Example' do
@@ -5,7 +7,8 @@ target 'MyFirstPod_Example' do
 
   target 'MyFirstPod_Tests' do
     inherit! :search_paths
-
     
   end
+
+  pod 'MyFirstPod'
 end
